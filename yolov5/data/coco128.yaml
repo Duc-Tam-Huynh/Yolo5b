@@ -1,0 +1,11 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: ../datasets/coco128  # dataset root dir
+train: /content/Yolo5b/custom_dataset/images_and_labels/images/train
+val: /content/Yolo5b/custom_dataset/images_and_labels/images/valid
+test: /content/Yolo5b/custom_dataset/images_and_labels/images/test # test images (optional)
+
+# Classes
+names:
+  0: rifle
+  1: pistol
+
